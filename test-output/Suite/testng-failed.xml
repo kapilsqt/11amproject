@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="test(failed)">
+    <parameter name="url" value="https://automationexercise.com/"/>
+    <classes>
+      <class name="testngday2.Testapp">
+        <methods>
+          <include name="Loginpage"/>
+        </methods>
+      </class> <!-- testngday2.Testapp -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="test">	  
+	  <parameter name="url" value="https://automationexercise.com/"/>	  
+    <classes>
+      	<class name="testngday2.Testapp">		  
+		  <methods>			  
+			  <include name="OpenUrl"/>
+			  <include name="GetTitle"/>
+			  <include name="Loginpage"/>			  
+		  </methods>
+		  
+		</class>
+    </classes>
+  </test> <!-- Test -->
+    
+  
+</suite> <!-- Suite -->
